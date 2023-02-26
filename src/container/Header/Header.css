@@ -1,0 +1,12 @@
+.app__header-h1 {
+  color: var(--color-golden);
+  font-family: var(--font-base);
+  font-size: 5em;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  line-height: 1.3em;
+}
+
+.spoon__image img {
+  width: 80%;
+}

@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two');
+
+.app__navbar {
+  width: 100%;
+  box-shadow: 1px 1px 1px goldenrod;
+}
+
+.app__navbar--logo {
+  font-family: 'Lobster Two', sans-serif;
+
+  /* font-family: var(--font-base); */
+  font-size: 3em;
+}
+
+.app__navbar--links :hover {
+  color: goldenrod;
+}
+
+.app__navbar--login a:hover {
+  border-bottom: 3px solid goldenrod;
+  margin-bottom: 20px;
+}
+
+.app__navbar--seperator {
+  width: 1px;
+  background-color: gainsboro;
+}
+
+.app__navbar--smallscreen_overlay {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  transition: 0.5s ease;
+  z-index: 5;
+  font-family: var(--font-base);
+}
+
+.app__navbar--menu_btn {
+  font-size: 1.5em;
+  cursor: pointer;
+}
