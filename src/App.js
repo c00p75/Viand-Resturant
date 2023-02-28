@@ -2,14 +2,14 @@ import React from 'react';
 
 import { Navbar } from './components';
 import './App.css';
-import { AboutUs, Header } from './container';
+import { AboutUs, Header, SpecialMenu } from './container';
 
 const App = () => (
   <div>
     <Navbar />
     <Header />
     <AboutUs />
-    {/* <SpecialMenu /> */}
+    <SpecialMenu />
     {/* <Chef /> */}
     {/* <Intro /> */}
     {/* <Laurels /> */}

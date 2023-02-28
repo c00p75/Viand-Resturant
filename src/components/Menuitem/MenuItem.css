@@ -1,3 +1,28 @@
-* {
-  display: block;
+.app__menuitem-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.app__menuitem-name {
+  flex: 1;
+}
+
+.app__menuitem-name p {
+  color: var(--color-golden);
+}
+
+.app__menuitem-sub p {
+  font-size: 0.8em;
+  color: dimgray;
+}
+
+.app__menuitem-dash {
+  width: 4em;
+  height: 1px;
+  background-color: black;
+}
+
+.app__menuitem-price p {
+  font-size: 1.3em;
 }
