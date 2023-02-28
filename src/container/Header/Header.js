@@ -8,7 +8,7 @@ const Header = () => (
     <div className="app__wrapper_info">
       <SubHeading title="Chase a new flavor" />
       <h1 className="app__header-h1">Key to fine dining</h1>
-      <p className="p__opensans my-2">Be ready to experience fine dining at its finest with our world-class service and dishes inspired by world renoened chefs and cooks. Our menu has been cleverly and creatively crafted with the amazing flavor combinations to choose from.</p>
+      <p className="p__opensans my-2">Be ready to experience fine dining at its, well.. finest with our world-class service and dishes inspired by world renoened chefs and cooks.</p>
       <button type="button" className="custom__button">Explore Menu</button>
     </div>
 
