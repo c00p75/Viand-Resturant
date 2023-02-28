@@ -3,11 +3,11 @@
 :root {
   --font-base: 'Cormorant Upright', serif;
   --font-alt: 'Open Sans', sans-serif;
-  --color-golden: goldenrod;
+  --color-golden: darkgoldenrod;
   --color-black: #0c0c0c;
   --color-gray: #545454;
   --color-crimson: #f5efdb;
-  --color-grey: #aaa;
+  --color-grey: lightgrey;
   --color-white: #fff;
 }
 

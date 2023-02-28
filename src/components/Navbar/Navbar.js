@@ -26,7 +26,7 @@ const links = [
     text: 'Awards',
   },
   {
-    id: '4',
+    id: '5',
     path: '#contact',
     text: 'Contact',
   },
@@ -40,13 +40,16 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="app__navbar d-flex justify-content-between align-items-center px-3 py-1">
-      <h1 className="app__navbar--logo d-flex justify-content-start align-items-center fw-bold">
-        Viand
-      </h1>
+    <nav className="app__navbar d-flex justify-content-between align-items-center p-3">
+      <a href="/" className="flex__center">
+        <h1 className="app__navbar--logo d-flex justify-content-start align-items-center fw-bold m-0">
+          Viand
+        </h1>
+      </a>
+
       <ul className="list-unstyled  d-none d-md-flex justify-coontent-center m-0">
         {links.map((link) => (
-          <li key={link.key} className="mx-md-2 mx-lg-3 app__navbar--links p__opensans">
+          <li key={link.id} className="mx-md-2 mx-lg-3 app__navbar--links p__opensans">
             <a href={link.path}>
               {link.text}
             </a>

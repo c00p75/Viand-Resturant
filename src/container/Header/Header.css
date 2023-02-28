@@ -10,3 +10,9 @@
 .spoon__image img {
   width: 80%;
 }
+
+@media screen and (max-width: 768px) {
+  .app__header-h1 {
+    font-size: 3em;
+  }
+}
