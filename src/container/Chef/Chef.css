@@ -1,3 +1,33 @@
-* {
-  display: block;
+.app__chef-content_quote {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.app__chef-content_quote img {
+  width: 4em;
+  margin: 0 1em 2em 0;
+}
+
+.app__chef-sign p:first-child {
+  color: var(--color-golden);
+  font-family: var(--font-base);
+  font-size: 1.5em;
+  line-height: 2em;
+  letter-spacing: 0.04em;
+}
+
+.app__chef-sign img {
+  width: 50%;
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .app__chef-sign p:first-child {
+    line-height: 1em;
+  }
+
+  .app__chef-sign img {
+    width: 80%;
+  }
 }
