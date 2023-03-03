@@ -1,3 +1,24 @@
-* {
-  display: block;
+.app__video {
+  height: 100vh;
+  position: relative;
+}
+
+.app__video video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.app__video-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.app__video-overlay_circle {
+  width: 5em;
+  height: 5em;
+  border-radius: 50%;
+  border: 1px solid var(--color-golden);
+  background: none;
 }
