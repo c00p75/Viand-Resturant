@@ -3,7 +3,7 @@ import React from 'react';
 import { Navbar } from './components';
 import './App.css';
 import {
-  AboutUs, Header, SpecialMenu, Chef, Intro,
+  AboutUs, Header, SpecialMenu, Chef, Intro, Gallery,
 } from './container';
 
 const App = () => (
@@ -14,8 +14,7 @@ const App = () => (
     <SpecialMenu />
     <Chef />
     <Intro />
-    {/* <Laurels /> */}
-    {/* <Gallery /> */}
+    <Gallery />
     {/* <FindUs /> */}
     {/* <Footer /> */}
   </div>
