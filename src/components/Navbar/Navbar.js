@@ -22,11 +22,6 @@ const links = [
   },
   {
     id: '4',
-    path: '#awards',
-    text: 'Awards',
-  },
-  {
-    id: '5',
     path: '#contact',
     text: 'Contact',
   },

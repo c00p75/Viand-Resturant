@@ -1,3 +1,102 @@
-* {
-  display: block;
+.app__gallary {
+  display: flex;
+  padding: 4rem 0 4rem 6rem;
+}
+
+.app__gallary-content {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-right: 2rem;
+}
+
+.app__gallary-images {
+  display: flex;
+  flex: 1;
+  max-width: 50%;
+  position: relative;
+}
+
+.app__gallary-images_container {
+  display: flex;
+  width: max-content;
+  overflow: auto;
+  gap: 1rem;
+}
+
+.app__gallary-images_container::-webkit-scrollbar {
+  display: none;
+}
+
+.app__gallary-images_card {
+  position: relative;
+  min-width: 19rem;
+  height: 27rem;
+}
+
+.gallary__image-icon {
+  position: absolute;
+  color: white;
+  opacity: 0.5;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+.app__gallary-images_card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 1;
+  transition: 0.5s ease;
+}
+
+.app__gallary-images_card:hover {
+  background-color: rgb(0, 0, 0.5);
+}
+
+.app__gallary-images_card:hover img {
+  opacity: 0.35;
+}
+
+.app__gallary-images_card:hover .gallary__image-icon {
+  opacity: 1;
+}
+
+.app__gallary-images_arrow {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  bottom: 5%;
+}
+
+.gallary__arrow-icon {
+  color: goldenrod;
+  font-size: 2rem;
+  cursor: pointer;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.gallary__arrow-icon:hover {
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .app__gallary {
+    flex-direction: column;
+    padding: 4rem 0 1rem 1rem;
+  }
+
+  .app__gallary-images {
+    max-width: 100%;
+  }
+
+  .app__gallary-images_container {
+    gap: 0.5rem;
+  }
 }
