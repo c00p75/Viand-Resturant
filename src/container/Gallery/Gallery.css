@@ -75,7 +75,7 @@
 }
 
 .gallary__arrow-icon {
-  color: goldenrod;
+  color: palegoldenrod;
   font-size: 2rem;
   cursor: pointer;
   background-color: black;
@@ -84,6 +84,7 @@
 
 .gallary__arrow-icon:hover {
   color: white;
+  transform: scale(1.1);
 }
 
 @media screen and (max-width: 768px) {

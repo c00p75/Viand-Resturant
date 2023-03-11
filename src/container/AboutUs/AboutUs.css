@@ -7,7 +7,7 @@
 }
 
 .app__aboutus h1 {
-  color: goldenrod;
+  color: var(--color-gold);
 }
 
 .app__aboutus-overlay {
@@ -60,6 +60,14 @@
 .app__aboutus-content_knife img {
   height: 38em;
   z-index: 2;
+}
+
+.line-clamp {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
 }
 
 @media screen and (max-width: 768px) {

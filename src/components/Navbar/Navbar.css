@@ -5,18 +5,15 @@
   box-shadow: 1px 1px 1px goldenrod;
 }
 
-.app__navbar--logo {
-  font-family: 'Homemade Apple', sans-serif;
-  color: dimgray;
-  font-size: 2.5em;
-  text-shadow: 1px 1px black;
-}
-
 .app__navbar--links :hover {
   color: goldenrod;
 }
 
-.app__navbar--login a:hover {
+.nav-booking {
+  cursor: pointer;
+}
+
+.app__navbar--login .nav-booking:hover {
   border-bottom: 3px solid goldenrod;
   margin-bottom: 20px;
 }
