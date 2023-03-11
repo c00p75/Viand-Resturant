@@ -1,3 +1,36 @@
-* {
-  display: block;
+.app__newsletter {
+  padding: 2rem 4rem;
+  border: 1px solid palegoldenrod;
+  z-index: 3;
+  background-color: black;
+}
+
+.app__newsletter-heading {
+  text-align: center;
+}
+
+.app__newsletter-heading p:first-child {
+  color: white;
+}
+
+.app__newsletter-input {
+  display: flex;
+  margin-top: 3em;
+}
+
+.app__newsletter-input input {
+  width: 80%;
+  border: 1px solid palegoldenrod;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-family: var(--font-base);
+  color: black;
+  padding: 0.75rem 1rem;
+  background-color: whitesmoke;
+}
+
+@media screen and (max-width: 768px) {
+  .app__newsletter {
+    padding: 2rem 0;
+  }
 }

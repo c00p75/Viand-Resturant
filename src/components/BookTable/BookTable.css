@@ -1,0 +1,418 @@
+#reserve {
+  opacity: 0;
+  position: fixed;
+  bottom: 20px;
+  right: 1em;
+  z-index: 5;
+  cursor: pointer;
+  background-color: wheat;
+  box-shadow: 1px 1px 3px 1px black;
+  width: 8em;
+  transition: 0.3s ease;
+}
+
+#reserve img {
+  width: 1.5em;
+  display: none;
+}
+
+#reserve:hover {
+  border: 1px solid dimgrey;
+  background-color: white !important;
+  width: 10em;
+}
+
+#reserve:hover img {
+  display: flex;
+}
+
+.singup {
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: block;
+  font-weight: bold;
+  font-size: x-large;
+  margin-top: 1.5em;
+}
+
+.modal-header {
+  padding: 0 1em !important;
+}
+
+.modal-header h3 {
+  font-size: 2.5em;
+}
+
+.modal-body .card .container {
+  height: auto;
+}
+
+.modal-body .container:has(.confirmation) {
+  padding: 0;
+}
+
+.modal-footer {
+  background: rgb(255, 255, 255, 0.1);
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 40%;
+  flex-direction: column;
+  gap: 3em;
+  border-radius: 15px;
+  background: whitesmoke;
+  box-shadow: 16px 16px 32px #c8c8c8, -16px -16px 32px #fefefe;
+}
+
+.card:has(.app__navbar--logo) {
+  padding-top: 1em;
+  border-radius: 0;
+  gap: 2em;
+  padding-bottom: 1em;
+  border-color: palegoldenrod;
+  position: relative;
+  background-color: ivory;
+}
+
+.card:has(#booking-card) {
+  width: 100%;
+  padding: 4em 18%;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-bottom: 3rem;
+}
+
+.inputBox,
+.inputBox1 {
+  position: relative;
+  width: 250px;
+  height: 3em;
+}
+
+.inputBox input,
+.inputBox1 input,
+.custom-border {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: none;
+  color: #000;
+  font-size: 1em;
+  background: transparent;
+  border-left: 2px solid #000;
+  border-bottom: 2px solid #000;
+  transition: 0.1s;
+  border-bottom-left-radius: 8px;
+}
+
+.inputBox span,
+.inputBox1 span,
+.custom-header {
+  margin-top: 5px;
+  position: absolute;
+  left: 0;
+  transform: translateY(-4px);
+  margin-left: 10px;
+  padding: 10px;
+  pointer-events: none;
+  font-size: 12px;
+  color: #000;
+  text-transform: uppercase;
+  transition: 0.5s;
+  letter-spacing: 3px;
+  border-radius: 8px;
+}
+
+.inputBox input:valid ~ span,
+.inputBox input:focus ~ span {
+  transform: translateX(113px) translateY(-15px);
+  font-size: 0.8em;
+  padding: 5px 10px;
+  background: #000;
+  letter-spacing: 0.2em;
+  color: #fff;
+  border: 2px;
+}
+
+.inputBox1 input:valid ~ span,
+.inputBox1 input:focus ~ span,
+.custom-header {
+  transform: translateX(156px) translateY(-15px);
+  font-size: 0.8em;
+  padding: 5px 10px;
+  background: #000;
+  letter-spacing: 0.2em;
+  color: #fff;
+  border: 2px;
+}
+
+.inputBox input:valid,
+.inputBox input:focus,
+.inputBox1 input:valid,
+.inputBox1 input:focus,
+.custom-border {
+  border: 2px solid #000;
+  border-radius: 8px;
+}
+
+.enter {
+  height: 45px;
+  width: 100px;
+  border-radius: 5px;
+  border: 2px solid #000;
+  cursor: pointer;
+  background-color: transparent;
+  transition: 0.5s;
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 2px;
+  margin-bottom: 3em;
+}
+
+.enter:hover {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+.btn-close {
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+}
+
+.status {
+  width: 0.5em;
+  height: 0.5em;
+  border: 1px solid black;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: white;
+}
+
+.active {
+  background-color: black;
+  z-index: 1;
+}
+
+.css-156tkzh-MuiButtonBase-root-MuiPickersDay-root.Mui-selected,
+.css-1hiwve1-MuiButtonBase-root-MuiPickersDay-root.Mui-selected {
+  background-color: var(--color-golden) !important;
+}
+
+.custom-border {
+  margin-top: 2em;
+  height: 5em;
+}
+
+.custom-border svg {
+  font-size: 2em;
+  margin-top: 0.5em;
+}
+
+.custom-header {
+  transform: translateX(20em) translateY(-100%);
+}
+
+.tablesize {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+}
+
+.tablesize svg {
+  cursor: pointer;
+}
+
+#tablesize__sub-heading {
+  transform: translateX(20em) translateY(-6em);
+}
+
+.tablesize-controls {
+  width: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card select {
+  cursor: pointer;
+  border: none;
+  background: none;
+  height: 100%;
+  width: 100%;
+  outline: none;
+}
+
+.dropdown-menu {
+  max-height: 40vh;
+  overflow: auto;
+  width: 40vw;
+}
+
+.custom-border .btn-group {
+  height: 100% !important;
+  width: 100%;
+}
+
+.custom-border .btn-group button {
+  outline: none;
+  border: none;
+}
+
+.dropdown-header {
+  color: goldenrod;
+}
+
+.dropdown-toggle::after {
+  border-top: 0.4em solid;
+  border-right: 0.4em solid transparent;
+  border-bottom: 0;
+  border-left: 0.4em solid transparent;
+}
+
+.dropdown-item svg {
+  font-size: 1em;
+  margin: 0;
+}
+
+.confirmation {
+  min-width: 60% !important;
+  max-width: 75% !important;
+  width: auto !important;
+  min-height: 58vh !important;
+}
+
+.confirmation h1 {
+  font-size: 3rem;
+  margin: 0.75rem !important;
+  color: goldenrod;
+}
+
+.confirmation-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.confirmation-details > div {
+  width: 40%;
+}
+
+.confirmation-details > div > span:last-child {
+  font-weight: lighter;
+}
+
+.corner {
+  width: 10em;
+  position: absolute;
+}
+
+#corner-1 {
+  left: -0.5em;
+  bottom: -1em;
+}
+
+#corner-2 {
+  right: -0.5em;
+  bottom: -1em;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+#corner-3 {
+  right: -0.5em;
+  top: -1em;
+  transform: rotate(180deg);
+}
+
+#corner-4 {
+  left: -0.5em;
+  top: -1em;
+  -webkit-transform: scaleX(-1);
+  transform: rotate(180deg) scaleX(-1);
+}
+
+.confirmation .headtext__cormorant {
+  line-height: normal;
+}
+
+@media screen and (max-width: 768px) {
+  #reserve img {
+    display: flex;
+    width: 2em;
+  }
+
+  #reserve span {
+    display: none;
+  }
+
+  #reserve {
+    background-color: white;
+    width: max-content !important;
+    border-radius: 50%;
+    padding: 1em !important;
+    box-shadow: 1px 1px 3px 1px black;
+  }
+
+  .modal-header h3 {
+    font-size: 2em;
+  }
+
+  .card {
+    width: 100%;
+    height: 90%;
+    margin-bottom: 3em;
+  }
+
+  .card:has(#booking-card) {
+    padding: 0;
+    margin-bottom: 5em;
+  }
+
+  .dropdown-menu {
+    width: 100%;
+  }
+
+  #time-slot .dropdown-menu {
+    height: 30vh;
+  }
+
+  .custom-header {
+    transform: translateX(50%) translateY(-100%);
+  }
+
+  #tablesize__sub-heading {
+    transform: translateX(50%) translateY(-6em);
+  }
+
+  .tablesize-controls {
+    width: 25%;
+  }
+
+  .confirmation {
+    width: 90% !important;
+    min-height: 58vh !important;
+    margin-bottom: 0;
+  }
+
+  .confirmation-details {
+    gap: 1em;
+  }
+
+  .confirmation-details > div {
+    width: 70%;
+  }
+
+  .modal-header {
+    padding: 0.5em 1em;
+  }
+
+  .modal-footer {
+    justify-content: space-between;
+  }
+}

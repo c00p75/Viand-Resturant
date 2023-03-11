@@ -44,7 +44,7 @@ const SpecialMenu = () => (
       </div>
     </div>
     <div className="mt-5">
-      <button type="button" className="custom__button">View More</button>
+      <button type="button" className="custom__button" data-bs-toggle="modal" data-bs-target="#RegularMenu">View More</button>
     </div>
   </div>
 );

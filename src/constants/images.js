@@ -23,6 +23,11 @@ import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
 import gericht from '../assets/gericht.png';
 import wine from '../assets/wine.png';
+import salad from '../assets/salad.gif';
+import calendar from '../assets/calendar.gif';
+import event from '../assets/event.gif';
+import checked from '../assets/checked.png';
+import corner from '../assets/corner.png';
 
 export default {
   bg,
@@ -50,4 +55,9 @@ export default {
   V,
   V2,
   wine,
+  salad,
+  calendar,
+  event,
+  checked,
+  corner,
 };

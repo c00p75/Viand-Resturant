@@ -50,6 +50,13 @@
   width: 80%;
 }
 
+.app__navbar--logo {
+  font-family: 'Homemade Apple', sans-serif;
+  color: dimgray;
+  font-size: 2.5em;
+  text-shadow: 1px 1px darkslategrey;
+}
+
 .custom__button {
   background-color: var(--color-crimson);
   color: var(--color-black);
@@ -63,6 +70,10 @@
   border: none;
   outline: none;
   cursor: pointer;
+}
+
+.custom__button:hover {
+  background-color: bisque;
 }
 
 .p__cormorant {
@@ -97,6 +108,17 @@
 
 .spoon__img {
   width: 45px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: gainsboro;
+  border-bottom-right-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 10px;
 }
 
 @media screen and (min-width: 2000px) {
