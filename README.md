@@ -1,6 +1,100 @@
-# Getting Started with Create React App
+# Viand Resturant
+
+# 📗 Table of Contents
+
+- [Viand](#Viand)
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 Viand ](#-Viand-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [Deployment Link:](#deployment-link)
+  - [💻 Getting Started with Create React App ](#-getting-started-with-create-react-app-)
+  - [Available Scripts](#available-scripts)
+    - [`npm start`](#npm-start)
+    - [`npm test`](#npm-test)
+    - [`npm run build`](#npm-run-build)
+  - [👥 Author ](#-author-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+    - [📝 License](#-license)
+
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 Viand <a name="about-project"></a>
+
+**Viand** is a simple frontend React.js project for a resturant landing page that demonstrates good React.js and CSS practices. The project also includes table reservation logic and a summary card that displays table booking information.
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+<details>
+  <summary>Programming languages</summary>
+  <ul>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
+    <li><a href="https://www.javascript.com/">JavaScript</a></li>
+  </ul>
+ </details>
+ 
+<details>
+  <summary>Technologies</summary>
+  <ul>
+    <li><a href="https://git-scm.com/">Git</a></li>
+    <li><a href="https://github.com/">Github</a></li>
+    <li><a href="https://eslint.org/">Linters</a></li>
+    <li><a href="https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow">Gitflow</a></li>
+  </ul>
+ </details>
+ <details>
+  <summary>Frameworks</summary>
+  <ul>
+    <li><a href="https://getbootstrap.com/">Bootstrap 5</a></li>
+    <li><a href="https://react-bootstrap.github.io/">React Bootstrap</a></li>
+  </ul>
+ </details>
+ <details>
+  <summary>Libraries</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React</a></li>
+  </ul>
+ </details>
+
+### Key Features <a name="key-features"></a>
+
+- The SPA has a main landing page that displays relevant information about the resturant.
+- The site has a 'Book table' button that toggles a pop up modal where a user can make a reservation.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Deployment Link:
+
+[Viand Resturant](https://viand.onrender.com)
+
+## 💻 Getting Started with Create React App <a name="getting-started"></a>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+- Install git in your computer.
+- Install a code editor.
+- And web browser to view the output.
+
+### Setup
+
+Clone this repository to your desired folder:
+
+- `cd my-folder`
+- `git clone https://github.com/c00p75/Viand-Resturant.git`
+
+### Install
+
+ Navigate to directory with `cd my-project`
+- Run `npm install` to install the dependencies.
 
 ## Available Scripts
 
@@ -29,42 +123,52 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## 👥 Authors <a name="author"></a>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+👤 **George M'sapenda**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- GitHub: [@github](https://github.com/c00p75)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/georgemsapenda/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+FUTURE FEATURES
 
-## Learn More
+## 🔭 Future Features <a name="future-features"></a>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Send e-mail confirmation after a reservation has been made.**
+- **Host reservations on server.**
 
-### Code Splitting
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🤝 Contributing <a name="contributing"></a>
 
-### Analyzing the Bundle Size
+Contributions, issues, and feature requests are welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Feel free to open an issue [here](https://github.com/c00p75/Viand-Resturant/issues).
 
-### Making a Progressive Web App
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## ⭐️ Show your support <a name="support"></a>
 
-### Advanced Configuration
+Please consider giving a ⭐️ if you like this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Deployment
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+> Give credit to everyone who inspired your codebase.
 
-### `npm run build` fails to minify
+- I would like to thank [JavaScript Mastery](https://www.jsmastery.pro/) for providing this tutorial on their [YouTube chanel](https://www.youtube.com/watch?v=4oV65GVVits&list=PL6QREj8te1P6CkO_4OIK1-nwG5OxCD5tR&index=4).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- I further appreciate [iqonic](https://www.iqonic.design) as they inspired the landing page design.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### 📝 License
+
+- This project is [MIT](./LICENSE) lincensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
