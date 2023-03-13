@@ -5,13 +5,9 @@
   box-shadow: 1px 1px 1px goldenrod;
 }
 
-.app__navbar--links :hover {
-  color: goldenrod;
-}
+.app__navbar--links :hover { color: goldenrod; }
 
-.nav-booking {
-  cursor: pointer;
-}
+.nav-booking { cursor: pointer; }
 
 .app__navbar--login .nav-booking:hover {
   border-bottom: 3px solid goldenrod;
