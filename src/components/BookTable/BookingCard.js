@@ -23,7 +23,7 @@ const BookingCard = ({
   setReserved,
 }) => (
   <form className="card">
-    <div className="container d-flex flex-column gap-4" id="booking-card">
+    <div className="container d-flex flex-column py-3" id="booking-card">
       <div>
         <h3 className="p__cormorant">Branch</h3>
         <div className="custom-border">

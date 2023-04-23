@@ -63,7 +63,6 @@
   height: 100%;
   width: 40%;
   flex-direction: column;
-  gap: 3em;
   border-radius: 15px;
   background: whitesmoke;
   box-shadow: 16px 16px 32px #c8c8c8, -16px -16px 32px #fefefe;
@@ -206,7 +205,7 @@
 }
 
 .custom-border {
-  margin-top: 2em;
+  margin-top: 1.5em;
   height: 5em;
 }
 
@@ -303,6 +302,10 @@
   width: 40%;
 }
 
+.card:has(#booking-card) .container > div {
+  margin-bottom: 2em;
+}
+
 .confirmation-details > div > span:last-child {
   font-weight: lighter;
 }
@@ -353,7 +356,7 @@
 
   #reserve {
     background-color: white;
-    width: max-content !important;
+    width: fit-content !important;
     border-radius: 50%;
     padding: 1em !important;
     box-shadow: 1px 1px 3px 1px black;
@@ -400,12 +403,13 @@
     margin-bottom: 0;
   }
 
-  .confirmation-details {
-    gap: 1em;
-  }
-
   .confirmation-details > div {
     width: 70%;
+    margin-bottom: 1em;
+  }
+
+  .confirmation-details > div:last-child {
+    margin: 0;
   }
 
   .modal-header {
