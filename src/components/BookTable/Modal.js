@@ -39,11 +39,11 @@ const Modal = () => {
       <div className="modal-dialog modal-sm modal-fullscreen" role="document">
         <div className="overflow-auto" style={{ height: '100vh' }}>
           <div className="modal-content">
-            <div className="modal-header">
-              <h3 className="modal-title headtext__cormorant" id="modalTitleId">Make A Reservation</h3>
-              <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close" />
-            </div>
             <div className={`modal-body ${currentPage === 2 ? 'px-0 px-md-5' : ''}`}>
+              <div className="modal-header">
+                <h3 className="modal-title headtext__cormorant" id="modalTitleId">Make A Reservation</h3>
+                <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close" />
+              </div>
               <div className="booking-status d-flex gap-1 justify-content-center align-items-center py-3">
                 <button type="button" className={`status ${currentPage === 1 ? 'active' : ''}`} onClick={() => setCurrentPage(1)}>{' '}</button>
                 <button type="button" className={`status ${currentPage === 2 ? 'active' : ''}`} onClick={() => setCurrentPage(2)}>{' '}</button>
@@ -86,17 +86,17 @@ const Modal = () => {
                 />
                 )}
               </div>
+              {currentPage !== 1 && (
+                <div className="modal-footer">
+                  <button type="button" className="custom__button" data-bs-dismiss="modal">
+                    {edit === true ? 'Cancel' : 'Done'}
+                  </button>
+                  <button type="button" className="custom__button" onClick={() => setEdit(!edit)}>
+                    {edit === true ? 'Make Reservation' : 'Cancel Reservation'}
+                  </button>
+                </div>
+              )}
             </div>
-            {currentPage !== 1 && (
-            <div className="modal-footer">
-              <button type="button" className="custom__button" data-bs-dismiss="modal">
-                {edit === true ? 'Cancel' : 'Done'}
-              </button>
-              <button type="button" className="custom__button" onClick={() => setEdit(!edit)}>
-                {edit === true ? 'Make Reservation' : 'Cancel Reservation'}
-              </button>
-            </div>
-            )}
           </div>
         </div>
 
