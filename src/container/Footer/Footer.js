@@ -23,7 +23,7 @@ const Footer = () => (
           Viand
         </h1>
         <p className="p__opensans mx-0 mx-md-4">&ldquo;The best way to find your self is to lose yourself in the service of others&ldquo;</p>
-        <img src={images.spoon} alt="spoon" className="mt-3" />
+        <img src={images.spoon} alt="spoon" className="mt-3" loading="lazy" />
         <div className="app__footer-links_icons mt-1">
           <FiFacebook />
           <FiTwitter />
