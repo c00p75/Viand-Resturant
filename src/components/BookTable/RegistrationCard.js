@@ -7,7 +7,7 @@ const RegistrationCard = ({
     <h5 className="singup">Register</h5>
     <div className="inputBox my-5">
       <input type="text" name="name" value={userInput} required="required" className="pt-3" onChange={(e) => { setUserInput(e.target.value); }} />
-      <span>Username</span>
+      <span>Name</span>
     </div>
     <div className="inputBox1 mb-5">
       <input type="email" name="email" value={emailInput} required="required" className="pt-3" onChange={(e) => { setEmailInput(e.target.value); }} />
