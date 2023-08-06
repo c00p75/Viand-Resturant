@@ -26,7 +26,7 @@ const SpecialMenu = () => (
       </div>
 
       <div className="app__specialMenu-menu_img d-flex justify-content-center align-items-center">
-        <img src={images.menu} alt="menu img" />
+        <img src={images.menu} alt="menu img" loading="lazy" />
       </div>
 
       <div className="app__specialMenu_menu-cocktails flex__center">
